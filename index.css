@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 15px 0;
+    background: rgb(114 159 207);
+}
+
+header img {
+    float: left;
+    margin-right: 15px;
+}
+
+header h1 {
+    float: left;
+}
+
+ol,
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin-right: 15px;
+}
+
+nav .container {
+    background: rgb(114 159 207);
+    padding: 15px 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    margin: 15px 0;
+}
+
+.body .container {
+    padding: 15px 10px;
+    background: rgb(114 159 207);
+}
+
+
+.even {
+    background-color: green;
+}
+
+.table {
+    margin: 15px 0;
+}
+
+.form .container {
+    background: rgb(114 159 207);
+    padding: 15px 10px;
+}
+
+footer {
+    background: rgb(114 159 207);
+    padding: 15px 0;
+    margin-top: 15px;
+}
