@@ -7,28 +7,11 @@ body {
     box-sizing: border-box;
 }
 
-.clearfix {
-    overflow: auto;
-}
-
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
 header {
     padding: 15px 0;
     background: rgb(114 159 207);
 }
 
-header img {
-    float: left;
-    margin-right: 15px;
-}
-
-header h1 {
-    float: left;
-}
 
 ol,
 ul {
@@ -37,11 +20,6 @@ ul {
     padding: 0;
     list-style-type: none;
     overflow: hidden;
-}
-
-nav li {
-    float: left;
-    margin-right: 15px;
 }
 
 nav .container {
@@ -81,4 +59,54 @@ footer {
     background: rgb(114 159 207);
     padding: 15px 0;
     margin-top: 15px;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+}
+
+.table {
+    order: 2;
+}
+
+.form {
+    order: 1;
+    margin-top: 15px;
+}
+
+@media (min-width: 1000px) {
+    .clearfix {
+        overflow: auto;
+    }
+
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    header img {
+        float: left;
+        margin-right: 15px;
+    }
+
+    header h1 {
+        float: left;
+    }
+
+    nav li {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .table {
+        order: 1;
+    }
+
+    .form {
+        order: 2;
+        margin-top: 0;
+    }
+
+
 }
